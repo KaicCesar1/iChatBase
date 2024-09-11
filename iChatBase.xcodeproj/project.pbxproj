@@ -11,6 +11,7 @@
 		960472292C918AC1003589AA /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960472282C918AC1003589AA /* SignInView.swift */; };
 		9604722B2C918AC4003589AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9604722A2C918AC4003589AA /* Assets.xcassets */; };
 		9604722E2C918AC4003589AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9604722D2C918AC4003589AA /* Preview Assets.xcassets */; };
+		960472352C919394003589AA /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960472342C919394003589AA /* SignInViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		960472282C918AC1003589AA /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		9604722A2C918AC4003589AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9604722D2C918AC4003589AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		960472342C919394003589AA /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		960472252C918AC1003589AA /* iChatBase */ = {
 			isa = PBXGroup;
 			children = (
+				960472362C9194E6003589AA /* SignIn */,
 				960472262C918AC1003589AA /* iChatBaseApp.swift */,
-				960472282C918AC1003589AA /* SignInView.swift */,
 				9604722A2C918AC4003589AA /* Assets.xcassets */,
 				9604722C2C918AC4003589AA /* Preview Content */,
 			);
@@ -65,6 +67,15 @@
 				9604722D2C918AC4003589AA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		960472362C9194E6003589AA /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				960472282C918AC1003589AA /* SignInView.swift */,
+				960472342C919394003589AA /* SignInViewModel.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				960472292C918AC1003589AA /* SignInView.swift in Sources */,
 				960472272C918AC1003589AA /* iChatBaseApp.swift in Sources */,
+				960472352C919394003589AA /* SignInViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
